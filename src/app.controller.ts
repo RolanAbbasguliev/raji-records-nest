@@ -1,6 +1,7 @@
 import { Controller, Get, Render, UseInterceptors } from "@nestjs/common";
  
 
+
 @Controller()
 export class AppController {
   @Get(['/', 'index'])
